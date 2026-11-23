@@ -7,8 +7,7 @@ let mostrarArreglo = document.querySelector ("#btnEJ2c")
 let agregarInicio = document.querySelector ("#btnEJ2d")
 let eliminarPrimero = document.querySelector ("#btnEJ2e")
 
-eliminarUltimo.onclick= function ()
-{
+eliminarUltimo.onclick= function (){
     peliculas.pop()
 }
 agregarFinal.onclick= function (){
@@ -20,9 +19,12 @@ mostrarArreglo.onclick= function (){
 agregarInicio.onclick= function (){
 peliculas.shift(input.value)
 }
+
 agregarInicio.onclick= function (){
     peliculas.unshift()
 }
 
 //ejercicio1//
+/*
 function CalcularPrecio (nafta1, nafta2, valor3, valor4)
+*/

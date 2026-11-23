@@ -31,5 +31,5 @@ agregarI.onclick = function(){
 mostrar.onclick = function(){
     parrafo.textContent = peliculas
 }
-
+//Excelente
 //Hecho por Lara Diaz Gatica

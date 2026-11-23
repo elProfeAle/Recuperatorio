@@ -14,6 +14,7 @@ let input = document.querySelector("#inputEj2")
 let parrafo = document.querySelector("#párrafo")
 
 boton1.onclick = function () { 
+    //Faltan los parentesis para que funcione .pop()
     peliculas.pop
 }
 agregar.onclick = function () {
@@ -26,6 +27,7 @@ agregar2.onclick = function () {
     peliculas.unshift(input.value)
 }
 eliminar2.onclick = function () {
+    //Faltan los parentesis para que funcione .shift()
     peliculas.shift
 }
 

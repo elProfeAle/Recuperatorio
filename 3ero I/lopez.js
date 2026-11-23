@@ -13,22 +13,27 @@ let input = document.querySelector ("inputEj2")
 
 
 eliminarultimo.onclick = function (){
+    //bien
     peliculas.pop ()
 }
-
+                        //Porque esta es input.value ahi?
 agregaralfinal.onclick =  function (input.value){
     peliculas.push ()
 }
 
 mostrar.onclick = function (){
+    //Mostras solo el tamaño del arreglo 
+    //Y en la consola, no parrafo
     console.log(peliculas.length)
 }
 
 agregaralinicio.onclick = function (){
+    //Toystory es una variable o valor? Si es valor, va entre comillas
     peliculas.unshift (Toystory)
 }
 
 eliminar.onclick = function (){
+    //Mismo error que el anterior, ademas de que shift no tiene que tener nada entre los parentesis
     peliculas.shift (Moana)
 }
 
