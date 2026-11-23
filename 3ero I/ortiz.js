@@ -1,6 +1,8 @@
 //Actividad uno
+//Faltan las llaves para comenzar la función
 function calcularPrecio (litrosynafta)
-
+//Mal la condición
+//Premium y super son variables o valores? 
 if (premium,super)
     
 {
@@ -10,7 +12,8 @@ let litropremium = 2000
 
 }
 
-    
+    //Mal definida las condiciones, si 
+    //la palabra super es igual a 1500 x litros?
 if "super" = 1500 * litrosuper
 ('Super' + nombre + ' tiene ' + lasuma + ' de litros')
 
@@ -18,13 +21,15 @@ if "Premium" = 2000 * litrospremium
 ('Premium' + nombre + ' tiene ' + lasuma + ' de litros')
 
 
-
+zz
 
 
 //Actuvidad dos
 
 let peliculas = ['Titanic', 'Enredados', 'Malefica'];
-
+//document es con d minúscula
+//Mal los id de los elementos, no existe elemento eliminar, y falta
+// # para los id
 let BotonEliminar = Document.querySelector("eliminar");
 let BotonAgregar = Document.querySelector("agregar");
 let BotonMostrar = Document.querySelector("mostrar");
@@ -39,16 +44,19 @@ BotonEliminar.onclick = Function()
 
 BotonAgregar.onclick = Function()
 {
+        //Mal nombre de variable input
 peliculas.push (inputPelicula.value);
 }
 
 BotonMostrar.onclick = Function() 
 {
+    //Se debe mostrar en un parrafo
 alert(peliculas);
 }
 
 BotonAgregaralinicio.onclick = Function()
 {
+    //Esto agregaria solamente frutillita
 peliculas.unshift("frutillita");
 }
 
