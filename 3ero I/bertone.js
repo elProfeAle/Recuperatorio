@@ -1,4 +1,4 @@
-/* Yo rendía la parte de funciones.
+// Yo rendía la parte de funciones.
 
 function calcularPrecio (litros, tipoNafta) {
     let precioTotal
@@ -13,5 +13,5 @@ function calcularPrecio (litros, tipoNafta) {
 }
 calcularPrecio(14, "Super")
 calcularPrecio(50, "Premium")
-*/
+
 

@@ -16,6 +16,7 @@ agregarfinal.onclick = function(){
     peliculas.push(input.value)
 }
 mostrar.onclick = function(){
+    //Se debia mostrar en un parrafo
     console.log(peliculas)
 }
 agregarinicio.onclick =function(){
